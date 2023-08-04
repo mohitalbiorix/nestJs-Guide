@@ -1,0 +1,9 @@
+Installation stpes
+
+1. npm i @nestjs/common
+2. npm i @nestjs/core
+3. npm i @nestjs/platform-express
+4. npm i reflect-metadata
+5. npm i typescript
+
+run: npx ts-node-dev src/main.ts

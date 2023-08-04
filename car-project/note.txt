@@ -1,0 +1,6 @@
+* Installation setUp
+
+1. npm i @nestjs/typeorm
+2. npm i sqlite3
+3. npm i typeorm
+4. install extension: sqlite, so create db.sqlite file

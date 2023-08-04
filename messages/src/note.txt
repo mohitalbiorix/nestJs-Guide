@@ -1,0 +1,15 @@
+Installation stpes
+
+* for create project
+$ npm i -g @nestjs/cli
+$ nest new project-name
+npm i class-validator
+npm i class-transformer
+
+commands:
+run: nest start
+generate controller: nest generate controller --flat (flat means not create  a root folder).
+generate module: nest generate module.
+
+Extensions:
+Rest client => It have a collections of API. and We can hit directly api from files
