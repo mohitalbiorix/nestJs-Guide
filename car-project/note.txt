@@ -4,3 +4,18 @@
 2. npm i sqlite3
 3. npm i typeorm
 4. install extension: sqlite, so create db.sqlite file
+
+Extensions:
+Rest client => It have a collections of API. and We can hit directly api from files.
+
+Save: The save operation is used to either insert a new entity into the database or update an existing entity based on its primary key value. If the entity already exists (i.e., there is a record with the same primary key in the database), save performs an update; otherwise, it inserts a new record.
+
+Create: The create operation is used to instantiate a new instance of an entity (a model or class representing a database table). It creates a new entity object in memory but does not persist it in the database until you call the save method.
+
+Insert: The insert operation is specifically used for inserting a new entity into the database without checking for existing records. It directly inserts a new record into the corresponding database table without updating an existing one.
+
+Update: The update operation is used to modify existing records in the database. You typically specify a condition or criteria to select which records to update, and then you provide the new values for the selected records.
+
+Remove: The remove operation is used to delete an entity from the database. It requires the entity object to be loaded from the database first (e.g., by using findOne or findById), and then you can call remove to delete it.
+
+Delete: In the context of TypeORM, delete is typically used in conjunction with a repository or query builder to delete records from the database. It is similar to the remove operation, but it may not always require the entity to be loaded first, and you can directly specify conditions to delete specific records.
